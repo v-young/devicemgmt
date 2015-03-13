@@ -1,0 +1,7 @@
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/classes/debug
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/android-integration-3.1.0-e43770d80f6f53d646061defc716d14efc58fcf6.jar
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-56dd704141aa0aa973aa425438102d3be7991fa9.jar
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/butterknife-6.1.0-a6140a1f4773aee025c2fcd2b6d912d655cbe852.jar
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.3-ff05a39db1493a893af34500d12dda3ce9b590b2.jar
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/core-3.1.0-8ed4b6009756f92301017a637b9c47cd861388d2.jar
+/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.8.3-345cf7579c45aa2564841452e452e1ebca351a25.jar

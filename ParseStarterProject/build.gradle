@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.parse'
+
+buildscript {
+  repositories {
+    mavenCentral()
+    maven {
+      url 'https://maven.parse.com/repo'
+    }
+
+      maven {
+          url 'http://dl.bintray.com/journeyapps/maven'
+      }
+  }
+  dependencies {
+    classpath 'com.parse.tools:gradle:1.+'
+  }
+}
+
+dependencies {
+    compile 'com.google.zxing:core:3.1.0'
+    compile 'com.google.zxing:android-integration:3.1.0'
+
+    compile 'com.jakewharton:butterknife:6.1.0'
+
+    compile 'com.parse.bolts:bolts-android:1.1.4'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+    compile fileTree(dir: 'libs', include: 'ParseCrashReporting-*.jar')
+
+    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'com.android.support:support-v4:13.0.+'
+    compile 'com.android.support:appcompat-v7:18.0.+'
+}
+
+
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+
+}
+
+/* Uncomment if you enable ProGuard and you want to automatically upload symbols on build.
+parse {
+  applicationId YOUR_APPLICATION_ID
+  masterKey YOUR_MASTER_KEY
+
+  // Make symbol upload automatic. Otherwise, use e.g. ../gradlew parseUploadSymbolsDebug;
+  uploadSymbols true
+}
+*/

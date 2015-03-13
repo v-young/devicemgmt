@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/vyoung/Repos/Parse-Starter-Project-1.8.3/ParseStarterProject/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Device Management</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="parse_app_id">1RCI0lbSGFAyJb9m7USLOC8XX08tQ3vGEqxTEHOM</string>
+    <string name="parse_client_key">actrjJjdHLiYa6FFwQ2faS7Xk0mXw2iL7IqnVPyp</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
